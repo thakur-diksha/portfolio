@@ -28,14 +28,14 @@
     }
 
     &__name {
-        font-size: 4rem;
+        font-size: 3rem;
         padding-bottom: 1rem;
         margin-bottom: 1rem;
         border-bottom: 2px solid set-text-color($primary-color);
 
         &--last {
             color: $secondary-color;
-            font-weight: 600;
+            font-weight: 500;
         }
     }
 }
