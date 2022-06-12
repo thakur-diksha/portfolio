@@ -1,0 +1,41 @@
+@import 'bg';
+
+.home-main {
+    overflow: hidden;
+}
+.home {
+    height: 100%;
+    padding-top: 40vh;
+    // overflow: hidden;
+    align-items: center;
+    text-align: center;
+    // background: 
+    //     linear-gradient(
+    //         to right, 
+    //         rgba($primary-color, 0.9),
+    //         rgba($primary-color, 0.3)
+    //     ),
+    //     url('/dist/img/1.jpg') center top;
+    // background-size: cover;
+    background: radial-gradient(ellipse at bottom, #272727 0%, #090A0F 100%);
+
+    h2 {
+        font-size: 2rem;
+
+        .ityped {
+            color: $secondary-color;
+        }
+    }
+
+    &__name {
+        font-size: 4rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid set-text-color($primary-color);
+
+        &--last {
+            color: $secondary-color;
+            font-weight: 600;
+        }
+    }
+}

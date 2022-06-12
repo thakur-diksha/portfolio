@@ -1,0 +1,43 @@
+@import 'bg';
+
+.contact-main{
+  overflow: hidden;
+}
+.contact {
+    height: 100%;
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // background: 
+    //   linear-gradient(
+    //     to right,
+    //     rgba($primary-color, 0.9),
+    //     rgba($primary-color, 0.3)
+    //   ),
+    //   url('/dist/img/1.jpg') center top;
+    // background-size: cover;
+    background: radial-gradient(ellipse at bottom, #272727 0%, #090A0F 100%);
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 3rem;
+    }
+  
+    &__list {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 3rem;
+      font-size: 1.5rem;
+      margin-bottom: 4rem;
+    }
+  
+    .social-icons {
+      position: initial;
+      margin-top: 1rem;
+    }
+
+    footer {
+      transform: rotate(90deg) translate(-3rem, -5rem);
+    }
+  }
