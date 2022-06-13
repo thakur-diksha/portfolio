@@ -20,7 +20,7 @@
     background: radial-gradient(ellipse at bottom, #272727 0%, #090A0F 100%);
 
     h2 {
-        font-size: 2rem;
+        font-size: 1.7rem;
 
         .ityped {
             color: $secondary-color;
@@ -28,10 +28,12 @@
     }
 
     &__name {
-        font-size: 3rem;
+        font-size: 2.6rem;
         padding-bottom: 1rem;
         margin-bottom: 1rem;
         border-bottom: 2px solid set-text-color($primary-color);
+        margin-left: 2rem;
+        margin-right: 2rem;
 
         &--last {
             color: $secondary-color;
