@@ -64,6 +64,13 @@
     //         font-size: 1.2rem;
     //     }
     // }
+    .home {
+        &__name {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+    
     .projects {
         &__items {
             grid-template-columns: repeat(2, 1fr);
