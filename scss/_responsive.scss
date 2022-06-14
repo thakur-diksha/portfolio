@@ -113,4 +113,14 @@
         // grid-template-columns: repeat(3, 1fr);
         margin-top: 2rem;
     }
+
+    .home {
+        h2 {
+            font-size: 2rem;
+        }
+
+        &__name {
+            font-size: 3.4rem;
+        }
+    }
 }
