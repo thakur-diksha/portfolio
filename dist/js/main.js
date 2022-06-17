@@ -27,3 +27,16 @@ function toggleMenu() {
         showMenu = false;
     }
 }
+
+window.onscroll = function() {
+    scrollFunction();
+}
+
+function scrollFunction() {
+    if(document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+        document.querySelector('.nav').style.background = "#000";
+    }
+    else {
+        document.querySelector('.nav').style.background = "transparent";
+    }
+}
