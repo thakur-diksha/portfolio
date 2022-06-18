@@ -34,7 +34,7 @@ window.onscroll = function() {
 
 function scrollFunction() {
     if(document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-        document.querySelector('.nav').style.background = "#000";
+        document.querySelector('.nav').style.background = "#303030";
     }
     else {
         document.querySelector('.nav').style.background = "transparent";

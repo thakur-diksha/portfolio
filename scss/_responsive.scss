@@ -5,7 +5,7 @@
 
     .nav {
         visibility: visible;
-        transition: 0.4s ease-in-out;
+        transition: 0.3s ease-in-out;
 
         .menu-nav {
             display: block;
@@ -31,14 +31,15 @@
             margin-bottom: 3rem;
         }
 
-        &__bio-image {
-            height: 80vh;
-        }
+        // &__bio-image {
+        //     height: 80vh;
+        // }
     }
 
     .projects {
         &__bio-image {
-            height: 80vh;
+            margin-top: 3rem;
+            height: 40vh;
         }
 
         &__items {
@@ -84,6 +85,26 @@
         &__p {
             font-size: 0.7rem;;
         }
+       
+    }
+
+    .about {
+        .infos {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        
+        .education {
+            grid-template-columns: 1fr 1fr;
+        }
+            
+        &__bio-image {
+            height: 80vh;
+        }
+        
+        .resume-img {
+            width: 20vw;
+        }
     }
 
     .contact__list {
@@ -92,9 +113,9 @@
     }
 
     .about {
-        &__bio-image {
-            height: 80vh;
-        }
+        // &__bio-image {
+        //     height: 90vh;
+        // }
         &__bio {
             font-size: 1.5rem;
             margin-bottom: 1rem;
@@ -106,24 +127,26 @@
     // .projects__bio-image {
     //     height: 50vh;
     // }
-    .projects {
-        &__bio-image {
-            height: 90vh;
-        }
 
-        
+    // .projects {
+    //     &__bio-image {
+    //         height: 90vh;
+    //     }
+
+    .projects {
         &__para {
             font-size: 1.2rem;
         }
+        
     }
     // .about__bio-image {
-    //     height: 60vh;
+    //     height: 70vh;
     // }
-    .about {
-        &__bio-image {
-            height: 100vh;
-        }
-    }
+    // .about {
+    //     &__bio-image {
+    //         height: 120vh;
+    //     }
+    // }
 
     .contact__list {
         // grid-template-columns: repeat(3, 1fr);
