@@ -28,7 +28,7 @@
     .about {
         &__bio {
             font-size: 1.2rem;
-            margin-bottom: 3rem;
+            margin-top: 18%;
         }
 
         // &__bio-image {
@@ -100,6 +100,11 @@
             
         &__bio-image {
             height: 80vh;
+        }
+
+        &__bio {
+            margin-top: 22%;
+            width: 70%;
         }
         
         .resume-img {
