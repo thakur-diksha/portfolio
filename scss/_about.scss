@@ -8,7 +8,7 @@
             linear-gradient(
                 to left, 
                 rgba($primary-color, 0.9),
-                rgba($primary-color, 0.42)
+                rgba($primary-color, 0.55)
             ),
             url('/dist/img/img2.jpg') top center;
         background-size: cover;
@@ -34,19 +34,11 @@
     }
 
     .infos {
-        width: 60vw;
-        margin: 4rem auto 0 auto;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 2rem;
+        @include grid-display;
 
         &__info {
-            background: lighten($primary-color, 10%);
-            padding: 2rem;
-            border-bottom: 5px solid $secondary-color;
-            margin-bottom: 1.4rem;
-            box-shadow: 20px 20px 40px 0px rgba(0,0,0,0.35);
-            
+            @include grid-items;
+
             h2 {
                 margin: 0.5rem 0;
             }
@@ -57,18 +49,10 @@
     }
 
     .education {
-        width: 60vw;
-        margin: 4rem auto 0 auto;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 2rem;
+        @include grid-display;
 
         &__edu {
-            background: lighten($primary-color, 10%);
-            padding: 2rem;
-            border-left: 5px solid $secondary-color;
-            margin-bottom: 1.4rem;
-            box-shadow: 20px 20px 40px 0px rgba(0,0,0,0.35);
+            @include grid-items;
 
             .icon, .icon-text {
                 font-size: 1.25rem;
@@ -92,11 +76,7 @@
         }
 
         &__skills {
-            background: lighten($primary-color, 10%);
-            padding: 2rem;
-            border-left: 5px solid $secondary-color;
-            margin-bottom: 1.4rem;
-            box-shadow: 20px 20px 40px 0px rgba(0,0,0,0.35);
+            @include grid-items;
 
             .skill-item {
                 flex: 0 0 100%;
@@ -144,18 +124,10 @@
     }
 
     .resume-img {
-        width: 60vw;
-        margin: 2.5rem auto 0 auto;
-        display: grid;
-        grid-template-columns: 1fr;
-        // grid-gap: 2rem;
+        @include grid-display;
 
         .resume-text {
-            background: lighten($primary-color, 10%);
-            padding: 1rem;
-            border-bottom: 5px solid $secondary-color;
-            margin-bottom: 1.4rem;
-            box-shadow: 20px 20px 40px 0px rgba(0,0,0,0.35);
+            @include grid-items;
             
             h2 {
                 margin-top: 0.5rem;
