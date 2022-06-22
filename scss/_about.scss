@@ -10,7 +10,7 @@
                 rgba($primary-color, 0.9),
                 rgba($primary-color, 0.55)
             ),
-            url('/dist/img/img2.jpg') top center;
+            url('../img/img2.jpg') top center;
         background-size: cover;
         display: flex;
         flex-direction: column;
